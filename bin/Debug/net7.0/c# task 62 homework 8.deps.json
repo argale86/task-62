@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "c# task 62 homework 8/1.0.0": {
+        "runtime": {
+          "c# task 62 homework 8.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "c# task 62 homework 8/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
