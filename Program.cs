@@ -24,6 +24,7 @@ do
     }
     while (count2 < n1);
     count2--;
+    count1++;
     do
     {
         mas [count1,count2] = buf;
@@ -42,15 +43,19 @@ do
         countmas++;
     }
     while (count2 > (nstart - 1));
-    count2++;
-    do
+    if (countmas < number)
     {
-        mas [count1,count2] = buf;
+        count2++;
         count1--;
-        buf++;
-        countmas++;
+        do
+        {
+            mas [count1,count2] = buf;
+            count1--;
+            buf++;
+            countmas++;
+        }
+        while (count1 > mstart);
     }
-    while (count1 > mstart);
     mstart++;
     nstart++;
     n1--;
